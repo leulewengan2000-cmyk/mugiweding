@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- AUDIO -->
+    <audio id="bgMusic" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- HERO / COVER -->
+    <section class="hero">
+        <div class="hero-text">
+            <p class="subtitle">Undangan Pernikahan</p>
+            <h1>Mugi Aji S<br>&<br>Aulia Herdana</h1>
+
+            <p class="guest">
+                Kepada Yth:<br>
+                <span id="guestName">Tamu Undangan</span>
+            </p>
+
+            <button id="openInvitation" class="btn-open">
+                Buka Undangan
+            </button>
+        </div>
+    </section>
+
+    <!-- KONTEN -->
+    <div id="content" class="content">
+        <section class="gallery-section">
+            <div class="card">
+                <div class="gallery-layout">
+                    <div class="photo-main">
+                        <img src="aji 1.png" class="reveal">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACARA -->
+        <section class="event-wrapper event-aji3">
+            <div class="event-overlay"></div>
+
+            <div class="event-content card">
+                <!-- TEKS PEMBUKAAN / SALAM -->
+                <div class="opening-text">
+                    <h2 class="initial-scale"><i>Assalamu’alaikum Warahmatullahi Wabarakatuh.</i></h2>
+                    <p>
+                        Dengan memohon rahmat dan ridho Allah SWT,
+                        kami bermaksud menyelenggarakan pernikahan kami.
+                    </p>
+                </div>
+
+                <!-- COUNTDOWN -->
+                <div class="flip-countdown">
+                    <div class="flip-unit">
+                        <div class="flip-card" id="days">00</div>
+                        <small>Hari</small>
+                    </div>
+                    <div class="flip-unit">
+                        <div class="flip-card" id="hours">00</div>
+                        <small>Jam</small>
+                    </div>
+                    <div class="flip-unit">
+                        <div class="flip-card" id="minutes">00</div>
+                        <small>Menit</small>
+                    </div>
+                    <div class="flip-unit">
+                        <div class="flip-card" id="seconds">00</div>
+                        <small>Detik</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="gallery-layout">
+                <div class="photo-main">
+                    <video class="reveal" autoplay muted loop playsinline>
+                        <source src="aji 4.mp4" type="video/mp4">
+                        Browser tidak mendukung video.
+                    </video>
+                    <video class="reveal" autoplay muted loop playsinline>
+                        <source src="aji 5.mp4" type="video/mp4">
+                        Browser tidak mendukung video.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <!-- FLIP COUNTDOWN -->
+            <div class="card detail-acara">
+                <h2>Detail Acara</h2>
+                <p><b>Akad Nikah</b><br>
+                    Minggu, 20 Desember 2026<br>
+                    08.00 WIB
+                </p>
+            </div>
+    </div>
+
+    <div class="btn-center">
+        <a class="btn" href="https://maps.app.goo.gl/GHL1k8NYvXx1GKci8" target="_blank">
+            📍 Lihat Lokasi
+        </a>
+    </div>
+
+    </div>
+    </section>
+
+    <!-- RSVP -->
+    <section>
+        <div class="card">
+            <h2>Konfirmasi Kehadiran</h2>
+            <a class="btn" href="https://wa.me/6285892530618">
+                💬 RSVP WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Undangan Pernikahan
+    </footer>
+    <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>
